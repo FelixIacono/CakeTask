@@ -1,7 +1,7 @@
 cakes = [{ weight:5, pounds: 160 }, { weight: 3, pounds: 90 }, { weight: 2, pounds: 15}]
 capacity = 20
 
-function maxDuffelBagValue(cakes, capacity) {
+function maxDuffleBagValue(cakes, capacity) {
 
 // seperate the properties weight and pounds into 2 seperate lists   
 
@@ -35,5 +35,5 @@ for (let w=1; w <= capacity; w++) {
  }
 
 
-maxDuffelBagValue(cakes, capacity)
+maxDuffleBagValue(cakes, capacity)
 
